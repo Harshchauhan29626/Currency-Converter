@@ -1,0 +1,49 @@
+
+body{
+    background-image: url("img/euro-1159935.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.min {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    height: 25rem;
+    width: 30rem;
+    border: 0.1px solid black;
+    text-align: center;
+    background: transparent;
+    backdrop-filter: blur(13px);
+    border-radius: 5px;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+input {
+    width: 90%;
+    height: 1.5rem;
+    border-radius: 4px;
+    padding-left: 4px;
+}
+
+button {
+    width: 92%;
+    height: 1.8rem;
+    margin-top: 1rem;
+    background-color: rgb(77, 221, 38);
+    color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#p1{
+    color: rgb(0, 0, 0);
+}
